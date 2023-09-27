@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Mooli&family=Work+Sans:wght@600&display=swap');
+
+body {
+    font-family: 'Mooli', sans-serif;
+    /* font-family: 'Work Sans', sans-serif; */
+    font-weight: 600;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #39a7f1;
+    color: white;
+    text-align: center;
+    padding: 0.1rem 0;
+  }
+  
+  main {
+    max-width: 600px;
+    margin: 0.3rem auto;
+    padding: 1rem;
+    background-color: white;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+  }
+  
+  .search-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+  }
+  
+  #locationInput {
+    padding: 10px;
+    width: 60%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+  #getWeatherBtn {
+    padding: 10px 20px;
+    background-color: #3498db;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  #getWeatherBtn:hover{
+    background-color:rgb(91, 91, 151);
+    color: white;
+  }
+  .unit-toggle {
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  
+  .weather-data {
+    text-align: center;
+  }
+  
+  footer {
+    text-align: center;
+    background-color: #3498db;
+    color: white;
+    padding: 0.5rem 0;
+  }
+  .unit-toggle{
+    font-size: 1rem;
+  }
+  #unitToggle{
+    padding: 0.5rem;
+  }
+  #unitToggle option{
+    font-size: 15px;
+  }
+  /* styles.css */
+
+/* Style the container for weather data */
+#weatherData {
+    background-color:rgb(17, 248, 159);
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  /* Style the weather location */
+.weather-data  .loction {
+    font-size:2.7rem;
+    font-weight: bold;
+    color:black;
+  }
+  
+  /* Style temperature */
+.weather-data  .Temp {
+    font-size: 18px;
+    color: black;
+  }
+  
+  /* Style humidity */
+ .weather-data .Humidity {
+    font-size: 18px;
+    color: black;
+  }
+  
+  /* Style wind speed */
+.weather-data  .Wind-Speed {
+    font-size: 18px;
+    color: black;
+  }
+  
+  /* Style weather description */
+.weather-data  .Description {
+    font-size: 18px;
+    color: black;
+  }
+  .weather-data .line{
+    color: black;
+  }
+  /* Style error message */
+.weather-data  .error-message {
+    color: red;
+    font-weight: bold;
+  }
+  
